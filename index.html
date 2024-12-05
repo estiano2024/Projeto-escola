@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>ESCOLA</title>
+    <meta charset="UTF-8">
+    <script src="codigo.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body> 
+    <header>
+        
+        <div class="escola">
+            <h1> E.E PROF. AMILCARE MATTEI </h1>
+            <h2>ESCOLA DE ENSINO INTEGRAL</h2>
+        </div>
+    </header>
+    
+    <div class="container"></div>
+    <div class="digitar">
+        <p>Número:</p>
+        <form action="">
+            <input size="1" id="campo1" value="" maxlength="1" type="text" readonly="readonly" />
+            <input size="1" id="campo2" value="" maxlength="1" type="text" readonly="readonly" />
+        </form>
+    </div>
+   
+    <div class="numeros">
+        <button class="bnt click" onclick="inserir(1)">1</button>
+        <button class="bnt click" onclick="inserir(2)">2</button>
+        <button class="bnt click" onclick="inserir(3)">3</button>
+        <button class="bnt click" onclick="inserir(4)">4</button>
+        <button class="bnt click" onclick="inserir(5)">5</button>
+        <button class="bnt click" onclick="inserir(6)">6</button>
+        <button class="bnt click" onclick="inserir(7)">7</button>
+        <button class="bnt click" onclick="inserir(8)">8</button>
+        <button class="bnt click" onclick="inserir(9)">9</button>
+        <button class="bnt click" onclick="inserir(0)">0</button>
+        <div class="teclado2">
+            <button class="nuloclick">NULO</button>
+            <button class="corrigir  click" onclick="corrige()">CORRIGE</button>
+            <button class="confirmar" onclick="votar()">CONFIRMA</button>
+        </div>
+    </div>
+    <button class="resultado">
+        <a href="resultado.html">Resultado</a>
+    </button>
+
+</body>
+
+</html>
