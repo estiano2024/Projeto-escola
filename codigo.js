@@ -37,7 +37,7 @@ function resultados() {
     for(i=0;i<100;i++){
         if (sessionStorage.getItem(i) !== null) {
             //alert(i);
-            document.getElementById("resultado").innerHTML += "Experimento "+i+" tem "+sessionStorage.getItem(i)+" votos<br/>";
+            document.getElementById("resultado").innerHTML += "Chapa"+i+" tem "+sessionStorage.getItem(i)+" votos<br/>";
         }
     }
 }
